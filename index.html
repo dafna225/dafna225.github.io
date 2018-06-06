@@ -1,8 +1,33 @@
+---
+layout: default
+title: Hilary Aguirre, Statistician/Data Scientist
+---
+<div class="blurb">
+	<img src="cover_image_2.jpg" width="1035" height="300">
+
+	<h1>A Picture and a Thousand Words:</h1>
+	<h2>The data science blog of Hilary Aguirre.</h2>
+
+	<p>I am a data scientist in Los Angeles who holds an advanced degree in Statistics. I love finding patterns and meaning in data and discovering connections, especially between seemingly disparate subjects. Below are some thoughts, discoveries, and favorite plots as I experiment with techniques in stats and machine learning.</a></p>
+
+</div><!-- /.blurb -->
+
+	<ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+</ul>
+
+
+
+<!--
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<p>This is the homepage [still under construction] for Hilary Aguirre.</p>p>
+<h1>A Picture and a Thousand Words</h1>
+<p>This is the homepage [still under construction] for Hilary Aguirre.</p>
+<p>As a statistician and data scientist, I love finding patterns and meaning in data.  I love finding connections, especially between seemingly disparate subjects.  After teaching high school math for 10 years, I am now eager to apply statistics to learn more about the world.  Cryptography and number theory? Political science? The speeches of Cicero in the original Latin? Stats apply to all of these!</p>
 </body>
 </html>
+-->
